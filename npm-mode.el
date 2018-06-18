@@ -143,20 +143,20 @@ nil."
 
 (defvar npm-mode-command-keymap
   (let ((map (make-sparse-keymap)))
-    (define-key map "n" 'npm-mode-npm-init)
-    (define-key map "i" 'npm-mode-npm-install)
-    (define-key map "s" 'npm-mode-npm-install-save)
-    (define-key map "d" 'npm-mode-npm-install-save-dev)
-    (define-key map "u" 'npm-mode-npm-uninstall)
-    (define-key map "l" 'npm-mode-npm-list)
-    (define-key map "r" 'npm-mode-npm-run)
-    (define-key map "v" 'npm-mode-visit-project-file)
+    ;; (define-key map "n" 'npm-mode-npm-init)
+    ;; (define-key map "i" 'npm-mode-npm-install)
+    ;; (define-key map "s" 'npm-mode-npm-install-save)
+    ;; (define-key map "d" 'npm-mode-npm-install-save-dev)
+    ;; (define-key map "u" 'npm-mode-npm-uninstall)
+    ;; (define-key map "l" 'npm-mode-npm-list)
+    ;; (define-key map "r" 'npm-mode-npm-run)
+    ;; (define-key map "v" 'npm-mode-visit-project-file)
     map)
   "Keymap for npm-mode commands.")
 
 (defvar npm-mode-keymap
   (let ((map (make-sparse-keymap)))
-    (define-key map (kbd npm-mode-command-prefix) npm-mode-command-keymap)
+    ;; (define-key map (kbd npm-mode-command-prefix) npm-mode-command-keymap)
     map)
   "Keymap for `npm-mode'.")
 
